@@ -1,0 +1,24 @@
+.CharCard {
+  margin: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+.Alive {
+  border: 10px solid darkolivegreen;
+}
+.Dead {
+  border: 10px solid brown;
+}
+.unknown {
+  border: 10px solid darkorange;
+}
+.CharCard img {
+  width: 200px;
+}
+.CharCard-Title {
+  margin: 0 auto;
+  max-width: 15ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
